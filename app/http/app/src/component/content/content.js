@@ -5,7 +5,7 @@ import Product from '../../assets/product.png'
 
 export const Content = ()=> {
     return (
-        <div className = "content">
+        <section id = "content">
             <div className = "download">
                 <span className = "intro1">PREPARE FOR YOUR</span>
                 <br/>
@@ -15,6 +15,6 @@ export const Content = ()=> {
             <div className = "product">
                 <img className="productImg" src={Product}/>
             </div>
-        </div>
+        </section>
     )
 }

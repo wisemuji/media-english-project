@@ -2,7 +2,7 @@ body{
     background-color: #5753a7;
 }
 
-.content{
+#content{
     background-color: #5753a7;
     display: block;
     width: 890px;

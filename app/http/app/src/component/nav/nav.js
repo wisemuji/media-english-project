@@ -9,18 +9,18 @@ let development = "DEVELOPMENT"
 
 export const Nav = ()=> {
     return (
-        <div className = "nav">
+        <nav id = "nav">
             <div className = "wrap">
                 <div className = "logo">
-                    <img className="logoImg" src={Logo}/>
+                    <a href="#content"><img className="logoImg" src={Logo}/></a>
                 </div>
                 <div className = "innerTap">
-                    <span className = "introduction">{introduction}</span>
-                    <span className = "reviews">{reviews}</span>
-                    <span className = "communicate">{communicate}</span>
-                    <span className = "development">{development}</span>
+                    <span className = "introduction"><a href="#introduction">{introduction}</a></span>
+                    <span className = "reviews"><a href="#reviews">{reviews}</a></span>
+                    <span className = "communicate"><a href="#communicate">{communicate}</a></span>
+                    <span className = "development"><a href="#development">{development}</a></span>
                 </div>
             </div>
-        </div>
+        </nav>
     )
 }
