@@ -1,3 +1,28 @@
 .nav {
-    
+    background-color: #5753a7;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+}
+.wrap{
+    margin: auto;
+    height: 7.3em;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 11em;
+    height: 100%;
+}
+.logoImg{
+    height: 8em;
+    position: absolute;
+}
+.innerTap span{
+    height: 100%;
+    width: 100px;
+    color: lightgray;
+    font-size: 18px;
+    margin-left: 30px;
 }
