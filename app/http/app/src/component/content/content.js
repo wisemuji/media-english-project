@@ -7,8 +7,10 @@ export const Content = ()=> {
     return (
         <div className = "content">
             <div className = "download">
-                <span className = "intro">PREPARE FOR YOUR PRESENT TIME</span>
-                <img className="GoogleImg" src={Google}/>
+                <span className = "intro1">PREPARE FOR YOUR</span>
+                <br/>
+                <span className = "intro2">PRESENT TIME</span>
+                <img className="googleImg" src={Google}/>
             </div>
             <div className = "product">
                 <img className="productImg" src={Product}/>

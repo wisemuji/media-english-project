@@ -1,5 +1,32 @@
+body{
+    background-color: #5753a7;
+}
+
 .content{
     background-color: #5753a7;
-    height: 100%;
-    width: 100%;
+    display: block;
+    width: 890px;
+    margin: auto;
+    padding-top: 150px;
+    align-content: center;
+    display: flex;
+}
+
+.intro1 {
+    font-size: 45px;
+    color: white;
+}
+.intro2 {
+    font-size: 62px;
+    color: white;
+}
+
+.googleImg{
+    margin-top: 20px;
+    height: 60px;
+    width: 180px;
+}
+
+.productImg{
+    width: 28em;
 }
