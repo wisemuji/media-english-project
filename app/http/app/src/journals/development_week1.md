@@ -1,4 +1,4 @@
-const week1 = `# 개발일지 Week 1 (Created at 2019.04.14)
+# 개발일지 Week 1 (Created at 2019.04.14)
 
 ## Development period
 
@@ -25,7 +25,7 @@ const week1 = `# 개발일지 Week 1 (Created at 2019.04.14)
 
     - 메인 페이지 완성
 
-        ![이미지](https://www.notion.so/4ab851fa24ed43bf9f3ff51469f1ecf5#adc4fdedc19a4986a8863f615f260bc0)
+        [](https://www.notion.so/4ab851fa24ed43bf9f3ff51469f1ecf5#adc4fdedc19a4986a8863f615f260bc0)
 
         웹사이트 메인 색깔과 메인 컨셉 지정. 
 
@@ -37,7 +37,7 @@ const week1 = `# 개발일지 Week 1 (Created at 2019.04.14)
 
         - 상단 네비게이션 바(Introduction, Reviews, Communicate, Development)
 
-            ![이미지](https://www.notion.so/4ab851fa24ed43bf9f3ff51469f1ecf5#61e32829eb3d46afaa9ba7d438842fa9)
+            [](https://www.notion.so/4ab851fa24ed43bf9f3ff51469f1ecf5#61e32829eb3d46afaa9ba7d438842fa9)
 
             각각의 섹션은 매주 완성될 예정.
 
@@ -47,7 +47,7 @@ const week1 = `# 개발일지 Week 1 (Created at 2019.04.14)
         - Google Play Store Link
         - Product Image
 
-            ![이미지](https://www.notion.so/4ab851fa24ed43bf9f3ff51469f1ecf5#f7ae9a2cb4ef4ca98b05c6d616f62fcc)
+            [](https://www.notion.so/4ab851fa24ed43bf9f3ff51469f1ecf5#f7ae9a2cb4ef4ca98b05c6d616f62fcc)
 
             메인 프로덕트 이미지로 앱의 로딩이미지와 스마트워치 구동 화면을 각각 아이폰과 스마트워치 제품에 목업하여 보여줌.
 
@@ -60,6 +60,4 @@ const week1 = `# 개발일지 Week 1 (Created at 2019.04.14)
     - Firebase Web Hosting
     - 링크를 통해 접근 가능하게 구현
 
-        [https://present-web.firebaseapp.com/](https://present-web.firebaseapp.com/)`;
-
-export default week1 ;
+        [https://present-web.firebaseapp.com/](https://present-web.firebaseapp.com/)
