@@ -12,9 +12,9 @@ export const Main = ()=> {
         <div>
             <Nav/>
             <Content/>
-            <Introduction/>
+            {/* <Introduction/>
             <Reviews/>
-            <Communicate/>
+            <Communicate/> */}
             <Development/>
         </div>
     )

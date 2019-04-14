@@ -8,6 +8,8 @@ export const Development = ()=> {
     const html = converter.makeHtml(week1);
 
     return (
-        <div className="preview" dangerouslySetInnerHTML={{ __html: html }} />
+        <div id="development" className="journals">
+            <div className="week1" dangerouslySetInnerHTML={{ __html: html }}/>
+        </div>
     )
 }

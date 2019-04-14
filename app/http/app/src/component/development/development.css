@@ -1,0 +1,12 @@
+.journals{
+    background-color: #f3f3f3;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+img{
+    max-width: 90%;
+}
+a{
+    color: blue;
+}

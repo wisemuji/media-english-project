@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './nav.css'
 import Logo from '../../assets/logo2.png'
+import { Link } from 'react-router-dom'
 
 let introduction = "INTRODUCTION"
 let reviews = "REVIEWS"
