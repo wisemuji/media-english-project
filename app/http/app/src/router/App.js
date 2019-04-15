@@ -15,14 +15,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Router>
-          <Route exact path = "/" component = {Main}/>
-          <Route path = "/content" component = {Content} />
-          <Route path = "/introduction" component = {Introduction} />
-          <Route path = "/reviews" component = {Reviews} />
-          <Route path = "/communicate" component = {Communicate} />
-          <Route path = "/development" component = {Development} />
-        </Router>
+        <Nav/>
+        {this.props.children}
       </div>
     );
   }
