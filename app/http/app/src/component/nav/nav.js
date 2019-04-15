@@ -16,10 +16,10 @@ export const Nav = ()=> {
                     <a href="#content"><img className="logoImg" src={Logo}/></a>
                 </div>
                 <div className = "innerTap">
-                    <span className = "introduction"><a href="#introduction">{introduction}</a></span>
-                    <span className = "reviews"><a href="#reviews">{reviews}</a></span>
-                    <span className = "communicate"><a href="#communicate">{communicate}</a></span>
-                    <span className = "development"><a href="#development">{development}</a></span>
+                    <span className = "introduction"><Link to="introduction">{introduction}</Link></span>
+                    <span className = "reviews"><Link to="reviews">{reviews}</Link></span>
+                    <span className = "communicate"><Link to="communicate">{communicate}</Link></span>
+                    <span className = "development"><Link to="development">{development}</Link></span>
                 </div>
             </div>
         </nav>
