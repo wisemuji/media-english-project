@@ -13,7 +13,7 @@ export const Nav = ()=> {
         <nav id = "nav">
             <div className = "wrap">
                 <div className = "logo">
-                    <Link to="/"><img className="logoImg" src={Logo}/></Link>
+                    <a href="/"><img className="logoImg" src={Logo}/></a>
                 </div>
                 <div className = "innerTap">
                     <span><a href="/#introduction">{introduction}</a></span>
