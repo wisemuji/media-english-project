@@ -1,0 +1,21 @@
+#introduction{
+    background-color: #f3f3f3;
+    padding: 86px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.summary{
+    width: 700px;
+    margin: 0 auto;
+}
+.intro_video{
+    width: 700px;
+    margin: 0 auto;
+}
+.features{
+    display: flex;
+    justify-content: center;
+}
