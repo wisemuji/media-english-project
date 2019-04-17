@@ -1,5 +1,5 @@
 #introduction{
-    background-color: #f3f3f3;
+    background-color: #f7f5f7;
     padding: 86px;
     text-align: center;
     display: flex;
@@ -10,6 +10,12 @@
 .summary{
     width: 700px;
     margin: 0 auto;
+}
+.summary h2 {
+    font-size: 28pt;
+}
+.summary p {
+    font-size: 13pt;
 }
 .intro_video{
     width: 700px;
