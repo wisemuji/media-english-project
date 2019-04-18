@@ -30,6 +30,7 @@
 .intro_video{
     width: 900px;
     margin: 0 auto;
+    margin-top: 50px;
 }
 .feature_items{
     display: flex;
