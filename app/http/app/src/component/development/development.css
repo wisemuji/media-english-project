@@ -4,9 +4,9 @@
     padding: 20px;
     border-radius: 20px;
 }
-img{
+#development img{
     max-width: 90%;
 }
-a{
+#development a{
     color: blue;
 }

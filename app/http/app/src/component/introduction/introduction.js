@@ -17,29 +17,36 @@ export const Introduction = ()=> {
                     <strong>‘PRE-SENT’</strong> is an app that helps you give these 
                     presentation perfectly.</p>
             </div>
-            <div className="video">
+            <div className="features">
+                {/* <h2>Features</h2> */}
+                <div className="feature_items">
+                    <div className="stopwatch">
+                        <img src={Stopwatch} alt="Stopwatch"/>
+                        <p><strong>Stopwatch</strong></p>
+                        <p>Use the stopwatch and finish your presentation in time.</p>
+                    </div>
+                    <div className="script">
+                        <img src={Script} alt="Script"/>
+                        <p><strong>Presentation Script</strong></p>
+                        <p>You can write down your own script and use it by using the Speech Recognition API.</p>
+                    </div>
+                    <div className="keypoint">
+                        <img src={Keypoint} alt="Keypoint"/>
+                        <p><strong>Key points</strong></p>
+                        <p>Receive vibrating notifications by adding 'key points' of the presentation</p>
+                    </div>
+                    <div className="smartwatch">
+                        <img src={Smartwatch} alt="Smartwatch"/>
+                        <p><strong>Smartwatch</strong></p>
+                        <p>Connect your watch with yout phone and receive notifications.</p>
+                    </div>
+                </div>
+            </div>
+            {/* <div className="video">
                 <video class="intro_video" controls autoplay loop>
                     <source src={Video} type="video/mp4"/>
                 </video>
-            </div>
-            <div className="features">
-                <div className="stopwatch">
-                    <img src={Stopwatch} alt="Stopwatch"/>
-                    <span>stopwatch</span>
-                </div>
-                <div className="script">
-                    <img src={Script} alt="Script"/>
-                    <span>script</span>
-                </div>
-                <div className="keypoint">
-                    <img src={Keypoint} alt="Keypoint"/>
-                    <span>keypoint</span>
-                </div>
-                <div className="smartwatch">
-                    <img src={Smartwatch} alt="Smartwatch"/>
-                    <span>smartwatch</span>
-                </div>
-            </div>
+            </div> */}
         </section>
     )
 }
