@@ -4,9 +4,9 @@
     padding: 20px;
     border-radius: 20px;
 }
-#development img{
+.journals img{
     max-width: 90%;
 }
-#development a{
+.journals a{
     color: blue;
 }
