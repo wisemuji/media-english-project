@@ -7,27 +7,28 @@
     justify-content: center;
     align-items: center;
 }
-strong{
-    color: #434245;
+.feature_items strong{
+    color: #251f22;
+    font-size: 20pt;
 }
 .present-text{
     color: #5555b7;
     font-weight: bold;
 }
 .summary{
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
 }
 .summary h2 {
-    color: #434245;
+    color: #251f22;
     font-size: 28pt;
 }
 .summary p {
-    color: #7e7d7e;
+    color: #434245;
     font-size: 16pt;
 }
 .intro_video{
-    width: 700px;
+    width: 900px;
     margin: 0 auto;
 }
 .feature_items{
@@ -35,7 +36,7 @@ strong{
     justify-content: center;
 }
 .feature_items div {
-    width: 250px;
+    width: 270px;
     margin: 40px 20px 10px 20px;
 }
 .feature_items div img{
@@ -43,7 +44,7 @@ strong{
     max-width: 170px;
 }
 .feature_items p{
-    color: #7e7d7e;
+    color: #434245;
     font-size: 16pt;
     
 }

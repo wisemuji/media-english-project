@@ -11,6 +11,11 @@ export const Introduction = ()=> {
         <section id = "introduction">
             <div className = "summary">
                 <h2>Introducing PRE-SENT</h2>
+            {/* <div className="video">
+                <video class="intro_video" controls autoplay loop>
+                    <source src={Video} type="video/mp4"/>
+                </video>
+            </div> */}
                 <p>We often give a presentation in school or company.
                     Sometimes we do it for school assignments, 
                     or to introduce some companies or projects. 
@@ -42,11 +47,6 @@ export const Introduction = ()=> {
                     </div>
                 </div>
             </div>
-            {/* <div className="video">
-                <video class="intro_video" controls autoplay loop>
-                    <source src={Video} type="video/mp4"/>
-                </video>
-            </div> */}
         </section>
     )
 }
