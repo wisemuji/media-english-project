@@ -14,7 +14,7 @@ export const Introduction = ()=> {
                 <p>We often give a presentation in school or company.
                     Sometimes we do it for school assignments, 
                     or to introduce some companies or projects. 
-                    <strong>‘PRE-SENT’</strong> is an app that helps you give these 
+                    <span className="present-text">‘PRE-SENT’</span> is an app that helps you give these 
                     presentation perfectly.</p>
             </div>
             <div className="features">

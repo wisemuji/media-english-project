@@ -5,7 +5,7 @@ body{
 #content{
     background-color: #5555b7;
     display: block;
-    width: 890px;
+    width: 900px;
     margin: auto;
     padding-top: 150px;
     align-content: center;
@@ -15,10 +15,12 @@ body{
 .intro1 {
     font-size: 45px;
     color: white;
+    font-weight: bold;
 }
 .intro2 {
     font-size: 62px;
     color: white;
+    font-weight: bold;
 }
 
 .googleImg{

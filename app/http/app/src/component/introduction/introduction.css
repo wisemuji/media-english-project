@@ -10,6 +10,10 @@
 strong{
     color: #434245;
 }
+.present-text{
+    color: #5555b7;
+    font-weight: bold;
+}
 .summary{
     width: 800px;
     margin: 0 auto;
@@ -20,7 +24,7 @@ strong{
 }
 .summary p {
     color: #7e7d7e;
-    font-size: 17pt;
+    font-size: 16pt;
 }
 .intro_video{
     width: 700px;
@@ -40,6 +44,6 @@ strong{
 }
 .feature_items p{
     color: #7e7d7e;
-    font-size: 17pt;
+    font-size: 16pt;
     
 }
