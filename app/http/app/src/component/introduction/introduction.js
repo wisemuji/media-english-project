@@ -37,7 +37,7 @@ export const Introduction = ()=> {
                     </div>
                     <div className="smartwatch">
                         <img src={Smartwatch} alt="Smartwatch"/>
-                        <p><strong>Smartwatch</strong></p>
+                        <p><strong className="present">Smartwatch</strong></p>
                         <p>Connect your watch with yout phone and receive notifications.</p>
                     </div>
                 </div>

@@ -1,3 +1,7 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body{
+    font-family: "Noto Sans KR", sans-serif;
+}
 #nav {
     background-color: #5555b7;
     width: 100%;
