@@ -26,7 +26,7 @@ const week1 = `# 개발일지 Week 1 (Created at 2019.04.14)
 
     - **메인 페이지 완성**
 
-        ![이미지](main_image.png)
+        ![이미지](/main_image.png)
 
         웹사이트 **메인 색깔**과 메인 컨셉 지정. 
 
@@ -38,7 +38,7 @@ const week1 = `# 개발일지 Week 1 (Created at 2019.04.14)
 
         - **상단 네비게이션 바(Introduction, Reviews, Communicate, Development)**
 
-            ![이미지](nav_image.png)
+            ![이미지](/nav_image.png)
 
             각각의 섹션은 매주 완성될 예정.
 
@@ -50,7 +50,7 @@ const week1 = `# 개발일지 Week 1 (Created at 2019.04.14)
         - **Google Play Store Link**
         - **Product Image**
 
-            ![이미지](product_image.png)
+            ![이미지](/product_image.png)
 
             메인 프로덕트 이미지로 앱의 로딩이미지와 스마트워치 구동 화면을 각각 아이폰과 스마트워치 제품에 목업하여 보여줌.
 
