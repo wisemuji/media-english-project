@@ -23,7 +23,7 @@ export const Nav = ()=> {
                     <span><a href="/#introduction">{introduction}</a></span>
                     <span><a href="/#reviews">{reviews}</a></span>
                     <span><NavLink to="/communicate" activeStyle={activeStyle}>{communicate}</NavLink></span>
-                    <span><NavLink to="/development" activeStyle={activeStyle}>{development}</NavLink></span>
+                    <span><NavLink to="/development/1" activeStyle={activeStyle}>{development}</NavLink></span>
                 </div>
             </div>
         </nav>
