@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './nav.css'
 import Logo from '../../assets/logo2.png'
-import { Link } from 'react-router'
+import { NavLink } from 'react-router-dom'
 
 let introduction = "INTRODUCTION"
 let reviews = "REVIEWS"
@@ -9,6 +9,10 @@ let communicate = "COMMUNICATE"
 let development = "DEVELOPMENT"
 
 export const Nav = ()=> {
+    const activeStyle = {
+        color: '#333333',
+        fontSize: '2rem'
+    };
     return (
         <nav id = "nav">
             <div className = "wrap">
@@ -18,8 +22,8 @@ export const Nav = ()=> {
                 <div className = "innerTap">
                     <span><a href="/#introduction">{introduction}</a></span>
                     <span><a href="/#reviews">{reviews}</a></span>
-                    <span><Link to="communicate">{communicate}</Link></span>
-                    <span><Link to="development">{development}</Link></span>
+                    <span><NavLink to="communicate" activeStyle={activeStyle}>{communicate}</NavLink></span>
+                    <span><NavLink to="development" activeStyle={activeStyle}>{development}</NavLink></span>
                 </div>
             </div>
         </nav>

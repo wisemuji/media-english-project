@@ -10,7 +10,8 @@ export const Development = ()=> {
     return (
         <div id="development">
             <div className="journals">
-                <div className="week1" dangerouslySetInnerHTML={{ __html: html }}/>
+                {/* <div className="week1" dangerouslySetInnerHTML={{ __html: html }}/> */}
+                {/* {this.props.children} */}
             </div>
         </div>
     )

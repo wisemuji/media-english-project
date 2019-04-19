@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
-import { BrowserRouter as Router, Route} from "react-router-dom";
-import { browserHistory } from 'react-router';
-import { Main } from '../component/index'
+import { Route } from "react-router-dom";
 
 import { Nav } from '../component/nav/nav'
+import { Main } from '../component/main/main'
 import { Content } from '../component/content/content'
 import { Introduction } from '../component/introduction/introduction'
 import { Reviews } from '../component/reviews/reviews'
@@ -16,7 +15,10 @@ class App extends Component {
     return (
       <div>
         <Nav/>
-        {this.props.children}
+        <Route exact path="/" component={Main}/>
+        <Route exact path="/communicate" component={Communicate}/>
+        <Route exact path="/development" component={Development}/>
+        {/* {this.props.children} */}
       </div>
     );
   }
