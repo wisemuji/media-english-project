@@ -1,4 +1,4 @@
-const week1 = `## 개발일지 Week 1 (Created at 2019.04.14)
+const week1 = `## 개발일지 Week #1 (Created at 2019.04.14)
 * * *
 
 ### Development period
@@ -56,7 +56,7 @@ const week1 = `## 개발일지 Week 1 (Created at 2019.04.14)
             메인 프로덕트 이미지로 앱의 로딩이미지와 스마트워치 구동 화면을 각각 아이폰과 스마트워치 제품에 목업하여 보여줌.
 
     - **개발 일지 업로드 화면 구현**
-        - **Day1 개발 일지 업로드**
+        - **Week #1 개발 일지 업로드**
 
             쉽게 이미지나 코드를 Embed할 수 있는 [Markdown](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4) 문법 사용.
 

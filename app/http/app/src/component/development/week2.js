@@ -1,4 +1,4 @@
-const week2 = `## 개발일지 Week 2 (Created at 2019.04.14)
+const week2 = `## 개발일지 Week #2 (Created at 2019.04.14)
 * * *
 
 ### Development period
@@ -76,7 +76,7 @@ const week2 = `## 개발일지 Week 2 (Created at 2019.04.14)
 
         (**Material Design Guide**의 [Card Design](https://material.io/design/components/cards.html#) 참고).
 
-        - Day2 개발 일지 업로드
+        - **Week #2 개발 일지 업로드**
 
             쉽게 이미지나 코드를 Embed할 수 있는 [Markdown](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4) 사용.
 `;
