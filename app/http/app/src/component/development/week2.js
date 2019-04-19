@@ -20,6 +20,10 @@ const week2 = `## 개발일지 Week 2 (Created at 2019.04.14)
 
         Google에서 제공하는 **[Noto Sans KR](https://fonts.google.com/specimen/Noto+Sans)**로 변경
 
+    - **스크롤바 숨기기**
+
+        웹사이트 내의 스크롤 바를 숨기고 기능은 작동하게 함.
+
     - **Introduction Section 완성**
 
         ![이미지](/introduction_image.png)
