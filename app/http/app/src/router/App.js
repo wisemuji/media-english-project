@@ -17,8 +17,7 @@ class App extends Component {
         <Nav/>
         <Route exact path="/" component={Main}/>
         <Route exact path="/communicate" component={Communicate}/>
-        <Route exact path="/development" component={Development}/>
-        {/* {this.props.children} */}
+        <Route path="/development" component={Development}/>
       </div>
     );
   }

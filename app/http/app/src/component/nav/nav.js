@@ -10,8 +10,8 @@ let development = "DEVELOPMENT"
 
 export const Nav = ()=> {
     const activeStyle = {
-        color: '#333333',
-        fontSize: '2rem'
+        color: '#aeb2fe',
+        fontWeight: 'bold'
     };
     return (
         <nav id = "nav">
@@ -22,8 +22,8 @@ export const Nav = ()=> {
                 <div className = "innerTap">
                     <span><a href="/#introduction">{introduction}</a></span>
                     <span><a href="/#reviews">{reviews}</a></span>
-                    <span><NavLink to="communicate" activeStyle={activeStyle}>{communicate}</NavLink></span>
-                    <span><NavLink to="development" activeStyle={activeStyle}>{development}</NavLink></span>
+                    <span><NavLink to="/communicate" activeStyle={activeStyle}>{communicate}</NavLink></span>
+                    <span><NavLink to="/development" activeStyle={activeStyle}>{development}</NavLink></span>
                 </div>
             </div>
         </nav>
