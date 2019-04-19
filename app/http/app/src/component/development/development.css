@@ -1,11 +1,50 @@
-.journals{
-    background-color: #f7f5f7;
-    margin: 0 auto;
-    margin-top: 50px;
-    padding: 30px;
-    border-radius: 20px;
-    max-width: 1000px;
+#development{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.cartegory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eae8ea;
+    border-radius: 2px;
+    max-height: 236px;
+    margin: 50px 0px;
+    padding: 0px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 45px, rgba(0, 0, 0, 0.14) 0px 15px 30px;
+    list-style: none;
+}
+.cartegory li{
+    border-radius: 2px;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+    width: 130px;
+    height: 50px;
+    padding-right: 35px;
+    line-height: 50px;
     color: #251f22;
+}
+.cartegory li:hover{
+    background-color: #c7c5c7;
+}
+.cartegory li a{
+    color: #251f22;
+    text-decoration: none;
+}
+.journals{
+    overflow-y:scroll;
+    background-color: #f7f5f7;
+    margin: 50px 0px;
+    padding: 18px 40px;
+    border-radius: 2px;
+    width: 780px;
+    height: 70vh;
+    color: #251f22;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 45px, rgba(0, 0, 0, 0.14) 0px 15px 30px;
 }
 .journals img{
     max-width: 90%;

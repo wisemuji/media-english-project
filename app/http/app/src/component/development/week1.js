@@ -1,19 +1,19 @@
-const week1 = `# 개발일지 Week 1 (Created at 2019.04.14)
+const week1 = `## 개발일지 Week 1 (Created at 2019.04.14)
 
-## Development period
+### Development period
 
 [개발 일정](https://www.notion.so/260811532fc245798f561a1c8dfaa793)
 
-## Development codes
+### Development codes
 
 [https://github.com/wisemuji/media-english-project](https://github.com/wisemuji/media-english-project)
 
-## Commit messages
+### Commit messages
 
 <blockquote class="embedly-card"><h4><a href="https://github.com/wisemuji/media-english-project/commits/master">wisemuji/media-english-project</a></h4><p>미디어실무영어 프로젝트 - 프리젠트 웹.</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
-## New features
+### New features
 
 - **Front-end 개발 진행**
     - **ReactJS, HTML, CSS, JavaScript**

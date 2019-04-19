@@ -23,7 +23,6 @@ export const Journal = ({match}) => {
         default:
             journal = week1;
     }
-    
     const converter = new showdown.Converter();
     const html = converter.makeHtml(journal);
     return (
