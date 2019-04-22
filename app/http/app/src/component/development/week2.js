@@ -62,8 +62,6 @@ const week2 = `## 개발일지 Week #2 (Created at 2019.04.19)
 
         재생, 볼륨 조절, 전체화면 등의 **컨트롤러** 제공.
 
-        BGM은 
-
     - **Development Section 레이아웃 변경 (개발일지 업로드 화면)**
 
         ![이미지](/development_image.png)
