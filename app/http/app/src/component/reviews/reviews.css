@@ -1,11 +1,9 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 #reviews{
     background-color: #e7e3e7;
     padding: 86px;
     text-align: center;
-}
-
-.summary{
-
 }
 
 .comments{
@@ -14,11 +12,11 @@
     justify-content: center;
     align-items: center;
 }
-.comment-wrap{
+.comment-box{
     width: 200px;
     height: 220px;
     background-color: #5555b7;
-    margin: 40px 12px 12px;
+    margin: 40px 12px 0px;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 18px 45px, rgba(0, 0, 0, 0.14) 0px 15px 30px;
 }
@@ -33,9 +31,17 @@
 .tri{
     width: 0px;
     height: 0px;
-    border-bottom:30px solid none;
-    border-top:30px solid #5555b7;
-    border-right: 30px solid transparent;
-    border-left: 30px solid  transparent;
+    border-bottom:15px solid none;
+    border-top:15px solid #5555b7;
+    border-right: 15px solid transparent;
+    border-left: 15px solid  transparent;
     margin: 0 auto;
   }
+  
+.checked {
+    color: rgb(245, 181, 6);
+}
+.rating{
+    margin-top: 10px;
+    font-size: 25px;
+}
