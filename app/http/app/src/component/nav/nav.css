@@ -31,6 +31,9 @@ body{
     font-weight: 300;
     -ms-overflow-style: none; 
 }
+html{
+    scroll-behavior: smooth;
+}
 #nav {
     background-color: #5555b7;
     width: 100%;
