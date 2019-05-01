@@ -31,6 +31,7 @@
     width: 900px;
     margin: 0 auto;
     margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 18px 45px, rgba(0, 0, 0, 0.14) 0px 15px 30px;
 }
 .feature_items{
     display: flex;
