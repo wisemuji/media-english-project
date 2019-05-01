@@ -1,9 +1,9 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 #reviews{
-    background-color: #e7e3e7;
     padding: 86px;
     text-align: center;
+    background-color: #e7e3e7;
 }
 
 .comments{
@@ -13,11 +13,12 @@
     align-items: center;
 }
 .comment-box{
-    width: 200px;
-    height: 220px;
+    width: 245px;
+    height: 275px;
     background-color: #5555b7;
     margin: 40px 12px 0px;
     padding: 10px;
+    font-size: 15pt;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 18px 45px, rgba(0, 0, 0, 0.14) 0px 15px 30px;
 }
 .comment-img{
@@ -43,5 +44,5 @@
 }
 .rating{
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 25pt;
 }
