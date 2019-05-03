@@ -18,16 +18,18 @@
     background-color: #5555b7;
     margin: 40px 12px 0px;
     padding: 10px;
-    font-size: 15pt;
+    font-size: 13pt;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 18px 45px, rgba(0, 0, 0, 0.14) 0px 15px 30px;
 }
 .comment-img{
     max-width: 60px;
-    margin: 10px;
+    margin-top: 10px;
 }
 .comment-text{
     color: #f7f3f7;
-    height: 100px;
+    height: 150px;
+    padding: 10px;
+    overflow: scroll;
 }
 .tri{
     width: 0px;
@@ -45,4 +47,8 @@
 .rating{
     margin-top: 10px;
     font-size: 25pt;
+}
+.author{
+    font-weight: bold;
+    font-size: 16pt;
 }
