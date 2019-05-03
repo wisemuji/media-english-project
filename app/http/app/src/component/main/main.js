@@ -4,6 +4,7 @@ import React, { Component } from 'react'
 import { Content } from '../content/content'
 import { Introduction } from '../introduction/introduction'
 import { Reviews } from '../reviews/reviews'
+import { Footer } from '../footer/footer'
 // import { Communicate } from '../communicate/communicate'
 // import { Development } from '../development/development'
 
@@ -13,6 +14,7 @@ export const Main = ()=> {
             <Content/>
             <Introduction/>
             <Reviews/>
+            <Footer/>
         </div>
     )
 }

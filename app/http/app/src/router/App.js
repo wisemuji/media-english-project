@@ -4,9 +4,6 @@ import { Route } from "react-router-dom";
 
 import { Nav } from '../component/nav/nav'
 import { Main } from '../component/main/main'
-import { Content } from '../component/content/content'
-import { Introduction } from '../component/introduction/introduction'
-import { Reviews } from '../component/reviews/reviews'
 import { Communicate } from '../component/communicate/communicate'
 import { Development } from '../component/development/development'
 

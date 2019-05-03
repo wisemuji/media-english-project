@@ -1,0 +1,15 @@
+#footer{
+    background-color: #434343;
+    color: #e3e7e3;
+    display: flex;
+    justify-content: center;
+    font-size: 12pt;
+}
+
+#footer .logoImg{
+    position: relative;
+}
+
+.contect{
+    margin-top: 67px;
+}
