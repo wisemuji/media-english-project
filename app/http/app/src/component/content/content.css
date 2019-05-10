@@ -5,9 +5,10 @@ body{
 #content{
     background-color: #5555b7;
     display: block;
-    width: 900px;
+    width: 980px;
     margin: auto;
     padding-top: 150px;
+    padding-left: 90px;
     align-content: center;
     display: flex;
 }
@@ -30,5 +31,5 @@ body{
 }
 
 .productImg{
-    width: 28em;
+    width: 33em;
 }
