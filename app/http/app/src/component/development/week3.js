@@ -1,4 +1,5 @@
 const week3 = `## 개발일지 Week 3 (Created at 2019.05.10)
+* * *
 
 ### Development period
 
