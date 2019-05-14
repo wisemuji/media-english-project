@@ -9,6 +9,7 @@ https://present-web.firebaseapp.com/
 ## Download App
 
 * Download the 'PRE-SENT' app in Google Play Store.
+
 https://play.google.com/store/apps/details?id=s2017s25.kr.hs.mirim.present_2018stac
 
 ## Language
@@ -75,6 +76,6 @@ firebase deploy
 
 ## Authors
 
-* **Suhyeon Kim** - *PM, Full-stack Development* - [wisemuji](https://github.com/wisemuji)
+* **Suhyeon Kim** - *Full-stack Development, Design* - [wisemuji](https://github.com/wisemuji)
 
 See also the repository of [PRE-SENT APP]https://github.com/wisemuji/Present_2018stac) . 
