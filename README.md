@@ -1,11 +1,19 @@
 # 프리젠트 웹(PRE-SENT WEB)
 
 2018 Smarteen App+ Challenge 생활부문 최우수상 : 프리젠트(완벽한 프리젠테이션을 위한 솔루션)를 홍보하기 위한 웹사이트
-https://play.google.com/store/apps/details?id=s2017s25.kr.hs.mirim.present_2018stac
 
 ## Website
 
 https://present-web.firebaseapp.com/
+
+## Download App
+
+* Download the 'PRE-SENT' app in Google Play Store.
+https://play.google.com/store/apps/details?id=s2017s25.kr.hs.mirim.present_2018stac
+
+## Language
+
+* The Website is based on `English`.
 
 ## Features
 
@@ -18,11 +26,22 @@ https://present-web.firebaseapp.com/
 * 개발일지
     * 웹사이트를 제작하면서 사용한 `기술 스택` 및 `개발 과정`을 정리한다.
 
-## Language
-
-* The Website language is `English`.
-
 ## 실행 화면
+
+> ![Main](https://user-images.githubusercontent.com/32327475/57661990-4df23880-7628-11e9-925d-2239c3c694bc.png)
+**Main**
+
+> ![Introduction](https://user-images.githubusercontent.com/32327475/57661999-534f8300-7628-11e9-9c0d-86a6f3f77ac2.png)
+**Introduction**
+
+> ![Video](https://user-images.githubusercontent.com/32327475/57662064-8c87f300-7628-11e9-9cf9-a97a9e20f985.png)
+**Video**
+
+> ![Reviews](https://user-images.githubusercontent.com/32327475/57662079-990c4b80-7628-11e9-948f-6fbc2b641376.png)
+**Reviews**
+
+> ![Development](https://user-images.githubusercontent.com/32327475/57662085-a45f7700-7628-11e9-99f0-e99016e108be.png)
+**Development**
 
 
 ## Development setup
