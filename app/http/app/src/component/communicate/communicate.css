@@ -1,0 +1,9 @@
+#communicate{
+    background-color: #f7f5f7;
+    padding: 86px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

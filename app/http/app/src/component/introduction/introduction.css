@@ -1,6 +1,6 @@
 #introduction{
     background-color: #f7f5f7;
-    padding: 86px;
+    padding: 86px 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
     align-items: center;
 }
 .feature_items strong{
-    color: #251f22;
+    color: #434245;
     font-size: 20pt;
 }
 .present-text{
@@ -20,8 +20,9 @@
     margin: 0 auto;
 }
 .summary h2 {
-    color: #251f22;
+    color: #434245;
     font-size: 28pt;
+    display: inline;
 }
 .summary p {
     color: #434245;
