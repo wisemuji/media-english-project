@@ -58,12 +58,11 @@ html{
 .innerTap span{
     height: 100%;
     width: 100px;
-    color: lightgray;
     font-size: 18px;
     margin-left: 20px;
     margin-right: 20px;
 }
 span > a {
-    color: #e7e7e7;
+    color: #f7f5f7;
     text-decoration: none;
 }
