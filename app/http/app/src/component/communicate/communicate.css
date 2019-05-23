@@ -2,8 +2,63 @@
     background-color: #f7f5f7;
     padding: 86px 0px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+}
+.contact-table{
+    margin: 60px 0px 0px;
+}
+.input-form{
+    border: 0px;
+    font-size: 13pt;
+    padding: 8px 15px;
+    margin: 4px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 7px 20px, rgba(0, 0, 0, 0.03) 0px 10px 20px;
+}
+
+.message-form{
+    height: 300px;
+    resize: none;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+}
+
+.submit-btn{
+    display: inline-block;
+    vertical-align:middle;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 12px 45px;
+    margin: 10px 0px 0px;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 14pt;
+    background-color: #5555b7;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 7px 20px, rgba(0, 0, 0, 0.13) 0px 10px 20px;
+}
+
+.submit-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.submit-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.submit-btn:hover span {
+    padding-right: 25px;
+}
+
+.submit-btn:hover span:after {
+    opacity: 1;
+    right: 0;
 }
