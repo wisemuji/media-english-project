@@ -6,7 +6,7 @@ export const Communicate = ()=> {
         <section id = "communicate">
             <div className = "summary">
                 <h2>Contact Us</h2>
-                <p>We want to hear from you! Feel free to conteact us.</p>
+                <p>We want to hear from you! Feel free to contact us.</p>
             </div>
             <div className = "contact">
                 <div class = "contact-table">
