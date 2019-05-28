@@ -1,6 +1,6 @@
 # 프리젠트 웹(PRE-SENT WEB)
 
-2018 Smarteen App+ Challenge 생활부문 최우수상 : 프리젠트(완벽한 프리젠테이션을 위한 솔루션)를 홍보하기 위한 웹사이트
+2018 Smarteen App+ Challenge 생활부문 최우수상 : 프리젠트(완벽한 프젠테이션을 위한 솔루션)를 홍보하기 위한 웹사이트
 
 ## Website
 
