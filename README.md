@@ -47,7 +47,7 @@ https://play.google.com/store/apps/details?id=s2017s25.kr.hs.mirim.present_2018s
 
 ## Development setup
 
-* you need to create `config.js` file.
+* First, you need to create `config.js` file.
 
 ```sh
 npm install
