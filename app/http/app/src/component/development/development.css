@@ -10,7 +10,7 @@
     align-items: center;
     background-color: #eae8ea;
     border-radius: 2px;
-    max-height: 236px;
+    max-height: 260px;
     margin: 50px 0px;
     padding: 0px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 45px, rgba(0, 0, 0, 0.14) 0px 15px 30px;
@@ -21,7 +21,7 @@
     text-align: center;
     font-size: 14pt;
     width: 130px;
-    height: 50px;
+    height: 52px;
     padding-right: 35px;
     line-height: 50px;
     color: #251f22;

@@ -38,14 +38,6 @@ const week4 = `## 개발일지 Week #4 (Created at 2019.05.26)
 
         ![이미지](/btn_hover.gif)
 
-- **Back-end 개발 진행**
-
-    이메일을 보내기 위한 기능을 구현함.
-
-    **사용기술** : Flask 
-
-    **API** : Flask-Mail API 
-
 - **Week4 개발 일지 업로드**
 
     쉽게 이미지나 코드를 Embed할 수 있는 [Markdown](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4) 사용.`;

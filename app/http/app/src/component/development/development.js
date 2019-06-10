@@ -15,6 +15,7 @@ export const Development = ({match})=> {
                 <NavLink to={`${match.url}/2`} activeStyle={activeStyle}><li>📋&nbsp;Week #2</li></NavLink>
                 <NavLink to={`${match.url}/3`} activeStyle={activeStyle}><li>📋&nbsp;Week #3</li></NavLink>
                 <NavLink to={`${match.url}/4`} activeStyle={activeStyle}><li>📋&nbsp;Week #4</li></NavLink>
+                <NavLink to={`${match.url}/5`} activeStyle={activeStyle}><li>📋&nbsp;Week #5</li></NavLink>
             </ul>
             <div className="journals">
                 <Route exact path={match.url} component={Journal}/>
