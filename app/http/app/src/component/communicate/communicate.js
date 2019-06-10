@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './communicate.css'
 import axios from 'axios'
 
-const apiURL = "http://54.180.32.86:9001";
+const apiURL = "https://wisemuji.pythonanywhere.com";
 export class Communicate extends Component {
     constructor () {
         super()
