@@ -19,13 +19,28 @@ export class Communicate extends Component {
         [e.target.name]: e.target.value
       })
     }
-    handleClick = (e) => {
+
+    formCheck() {
+        if(this.state.name && this.state.email && this.state.subject && this.state.message ){
+            return true
+        }
+        else return false
+    }
+
+    formData() {
         let form = new FormData()
         form.set('name', this.state.name)
         form.set('email',this.state.email)
         form.set('subject',this.state.subject)
         form.set('message',this.state.message)
-        axios.post(apiURL+'/send-mail', form) 
+        return form
+    }
+    handleClick = (e) => {
+        if(!this.formCheck()) {
+            alert('빈칸을 모두 채워주세요.')
+            return
+        }
+        axios.post(apiURL+'/send-mail', this.formData()) 
         .then( response => {
             alert('이메일이 성공적으로 전송되었습니다.')
             // 상태 초기화
