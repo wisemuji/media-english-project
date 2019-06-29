@@ -65,6 +65,7 @@ firebase deploy
 
 * [Firebase](https://www.heroku.com/) - Server Hosting
 * [React](https://reactjs.org/) - Front-end Development
+* [Flask](http://flask.pocoo.org) - Back-end Development
 
 ## Contributing
 
