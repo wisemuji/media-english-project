@@ -1,6 +1,6 @@
 # 프리젠트 웹(PRE-SENT WEB)
 
-2018 Smarteen App+ Challenge 생활부문 최우수상 : 프리젠트(완벽한 프레젠테이션을 위한 솔루션)의 랜딩 페이지
+2018 Smarteen App+ Challenge 생활부문 최우수상 : 프리젠트(완벽한 프레젠테이션을 위한 솔루션)의 랜딩 페이지(프론트엔드)
 
 ## Website
 
